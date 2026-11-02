@@ -120,12 +120,12 @@ return [
     | Markdown Mail Settings
     |--------------------------------------------------------------------------
     |
-    | Tema ada di resources/views/vendor/mail/html/themes/poiema.css.
+    | Tema ada di resources/views/vendor/mail/html/themes/polutimos.css.
     |
     */
 
     'markdown' => [
-        'theme' => env('MAIL_MARKDOWN_THEME', 'poiema'),
+        'theme' => env('MAIL_MARKDOWN_THEME', 'polutimos'),
 
         'paths' => [
             resource_path('views/vendor/mail'),

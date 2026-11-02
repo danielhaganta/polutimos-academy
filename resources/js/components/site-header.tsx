@@ -101,7 +101,7 @@ export default function SiteHeader() {
                 >
                     <SheetTitle className="sr-only">Menu</SheetTitle>
                     <SheetDescription className="sr-only">
-                        Poiema Academy main navigation
+                        Polutimos Academy main navigation
                     </SheetDescription>
                     <nav aria-label="Main menu">
                         <MenuLinks
@@ -126,7 +126,7 @@ function Wordmark() {
             className="flex items-baseline gap-2 rounded-[2px] outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring"
         >
             <span className="font-display text-2xl font-black tracking-[0.08em]">
-                POIEMA
+                POLUTIMOS
             </span>
             <span className="text-xs tracking-[0.14em] text-muted-foreground uppercase">
                 Academy
