@@ -13,7 +13,7 @@ export default function Info({ title, placeholder }: Props) {
                 <meta
                     head-key="description"
                     name="description"
-                    content={`Poiema Academy ${title.toLowerCase()}.`}
+                    content={`Polutimos Academy ${title.toLowerCase()}.`}
                 />
             </Head>
             <article className="max-w-2xl">

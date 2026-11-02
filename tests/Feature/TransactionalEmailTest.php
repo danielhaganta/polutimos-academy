@@ -23,11 +23,11 @@ test('emails are queued and sent in English', function () {
     $reset = (new ResetPasswordNotification('token'))->toMail($user);
     $html = (string) $verify->render();
 
-    expect($verify->subject)->toBe('Verify your Poiema Academy email')
-        ->and($reset->subject)->toBe('Reset your Poiema Academy password')
+    expect($verify->subject)->toBe('Verify your Polutimos Academy email')
+        ->and($reset->subject)->toBe('Reset your Polutimos Academy password')
         ->and($html)->toContain('Verify email')
         ->toContain('having trouble clicking')
-        ->toContain('Poiema Academy');
+        ->toContain('Polutimos Academy');
 });
 
 test('plan receipt shows the order and the subscription end date', function () {
